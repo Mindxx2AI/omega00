@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omega2 - AI Paraphrasing Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Omega2 - AI Paraphrasing Tool</h1>
+    </header>
+
+    <main>
+        <textarea id="inputText" placeholder="Enter your text here (max 15,000 words)..."></textarea>
+        <button onclick="paraphrase()">Paraphrase</button>
+        <button onclick="checkPlagiarism()">Check Plagiarism</button>
+        <button onclick="exportText()">Export</button>
+        <p id="wordCount">Word Count: 0</p>
+        <div id="outputContainer">
+            <h2>Paraphrased Output</h2>
+            <p id="outputText"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Omega2. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
